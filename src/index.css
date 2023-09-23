@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
+
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time{
+  height: 40px;
+}
+.Card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.food-card {
+  background-color: #FFFFFF;
+  padding: 1%;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+img{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #FFFFFF;
+}
+
+button {
+  font-family: 'Cabin';
+  border: none;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 7px;
+  cursor: pointer;
+  text-align: center;
+  background-color: aquamarine;
+}
